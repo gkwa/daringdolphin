@@ -68,3 +68,6 @@ select = [
 [tool.pyright]
 venvPath = "."
 venv = ".venv"
+
+[project.scripts]
+add-scan-inclusions = "add_scan_inclusions:main"
